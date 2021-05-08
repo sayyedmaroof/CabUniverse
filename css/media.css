@@ -1,0 +1,57 @@
+@media only screen and (min-width: 320px) and (max-width: 900px){
+    .navigation ul{
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .navigation li{
+        background-color: black;
+        padding: 15px;
+        border: 1px solid white;
+    }
+    .navigation li:hover{
+        background-color: rgba(247, 185, 38 ,1);
+
+    }
+    .navigation{
+        width: 100%;
+        align-self: flex-end;
+        order: 3;
+    }
+    .navigation a{
+        color: white;
+    }
+    .headercontent{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .logo,.phno{
+        padding: 10px;
+    }
+    .formgroup .inputtext{
+        width: 100%;
+    }
+    .formgroup #date{
+        margin: 0;
+    }
+    .formrow{
+        display: block;
+    }
+    .radiobuttons{
+        padding: 10px 30px;
+    }
+    .section4{
+        flex-wrap: wrap;
+    }
+    .section7{
+        padding: 100px 0;
+    }
+    .advertdescription a{
+        padding: 15px 11px;
+    }
+    .taxidetail{
+        width: 80%;
+    }
+}

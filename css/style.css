@@ -1,0 +1,861 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+*{
+    box-sizing: border-box;
+}
+
+.headercontent{
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* position: fixed; */
+}
+.logo{
+    padding: 20px 0 20px 20px;
+}
+.logo img{
+    max-width: 130px;
+    max-height: 130px;
+}
+.navigation a{
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 22px;
+    color: black;
+    transition: color .3s ease-in-out;
+}
+.navigation a:hover{
+    background-color: rgba(247, 185, 38 ,1);
+    border-radius: 17px;
+    color: white;
+}
+.navigation li{
+    list-style: none;
+}
+.navigation ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 160px;
+}
+.phno i{
+    height: 31px;
+    width: 24px;
+}
+
+.phno{
+    font-size: 32px;
+}
+.phno{
+    padding-right: 90px;
+}
+header::after{
+    background: url(../images/taxi-stripe.jpg) no-repeat center;
+    background-position: bottom;
+    content: "";
+    /* position: absolute; */
+    background-size: cover;
+    z-index: 1;
+    height: 12px;
+    width: 100%;
+    display: block;
+}
+.section1{
+    background: url(../images/slider2.jpg);
+    background-size: cover;
+    height: 476px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section1 h2{
+    color: rgba(247, 185, 38 ,1);
+    font-size: 37px;
+    margin-top: 0;
+    font-family: "Montserrat Alternates";
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+.section1 h2::after{
+    content: "Cab Universe";
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
+.section1 h1{
+    color: white;
+    font-size: 59px;
+    margin-bottom: 0;
+}
+.section1 h3{
+    color: rgba(247, 185, 38 ,1);
+    font-size: 37px;
+    text-align: center;
+    padding-bottom: 132px;
+    font-weight: 100;
+    margin-top: 0;
+    font-family: "Montserrat Alternates";
+    letter-spacing: -1px;
+    text-transform: lowercase;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.section2 h3{
+    background: url(../images/checkered\ border.png) center bottom no-repeat;
+    padding-bottom: 30px;
+    margin-top: 74px;
+    font-size: 24px;
+}
+.section2 img{
+    width: 100%;
+}
+.taxiselector a:hover{
+    background-color: rgba(247, 185, 38 ,1);
+    color: white;
+}
+.taxiselector li{
+    list-style: none;
+    padding: 0 5px;
+    margin: 16px 0 16px 0;
+}
+.taxiselector a{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 8px 10px;
+    color: rgba(247, 185, 38 ,1);
+    border: 2px solid rgba(247, 185, 38 ,1);
+    border-radius: 40px;
+    transition: all .3s ease-out;
+}
+.taxiselector ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.taxi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+}
+.taxidetail{
+    margin: 0 20px 0 20px;
+    background-color: rgba(247, 185, 38 ,1);
+    margin-bottom: 45px;
+    width: 324px;
+    text-align: center;
+    padding-top: 20px;
+    height: 77px;
+    border-radius: 40px;
+}
+.taxidetail p{
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.taxidetail h2{
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.signup h2{
+    text-align: center;
+    background: url(../images/tyellow.png) no-repeat;
+    background-position: bottom;
+    padding-bottom: 30px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.section3{
+    background: url(../images/citydrop.jpg) no-repeat center;
+    background-size: cover !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    background-position: center;
+}
+.formgroup p{
+    color: rgba(247, 185, 38 ,1);
+}
+.signup{
+    /* border: 2px solid red; */
+     flex: 50%;
+     font-family: 'Overpass', sans-serif;
+}
+.banner{
+    /* border: 2px solid green; */
+    flex: 50%;
+}
+.banner img{
+    max-width: 100%;
+}
+.radiobuttons span{
+    color: rgba(247, 185, 38 ,1);
+}
+.radiobuttons{
+    display: flex;
+    padding: 10px 45px 10px 0;
+    justify-content: space-between;
+}
+.label-left{
+        color: #fff;
+        padding: 10px 30px;
+        color: rgba(247, 185, 38 ,1);
+}
+.label-left::after{
+    content: "*";
+    color: red;
+    font-weight: 900;
+}
+.right-text{
+    padding: 10px 30px;
+}
+.formgroup .inputtext{
+    width: 380px;
+    height: 35px;
+    padding: 10px 5px;
+    background-color: #696363;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 17px;
+}
+.formgroup .inputtext:hover{
+    border: 1px solid white;
+}
+.formgroup #date{
+    height: 35px;
+    padding: 10px 5px;
+    background-color:#696363;
+    margin-right: 230px;
+    border: 1px solid transparent;
+    color: white;
+}
+.formgroup #date:hover{
+    border: 1px solid white;
+}
+.formgroup #submitbtn{
+    font-size: 17px;
+    background-color: rgba(247, 185, 38 ,1);
+    color: white;
+    border-style: solid;
+    border-color: #f7b926;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 50px;
+    padding: 10px 30px;
+    position: relative;
+    left: 30px;
+    margin-bottom: 40px;
+    transition: all .3s ease-in-out;
+}
+
+.formgroup #submitbtn:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.formrow{
+    display: flex;
+    align-content: space-around;
+    justify-content: space-between;
+    /* border: 2px solid white; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.radio{
+    width: 10px;
+    display: block;
+}
+.section4{
+    display: flex;
+    justify-content: space-around;
+}
+.appheading{
+    text-align: center;
+    background: url(../images/checkered\ border.png) center bottom no-repeat;
+    padding-bottom: 30px;
+    margin-top: 74px;
+    font-size: 30px;
+}
+.appbanner img{
+    /* border: 2px solid red; */
+    max-width: 100%;
+}
+.appdescription{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.appdescription p{
+    text-align: center;
+    color: gray;
+    padding: 0 20px;
+}
+.appdescription h3{
+    text-align: center;
+    background: url(../images/checkered\ border.png) center bottom no-repeat;
+    padding-bottom: 23px;
+    margin-top: 34px;
+    font-size: 30px;
+    margin: 10px
+}
+.point{
+    padding: 15px;
+    background-color: rgba(247, 185, 38 ,1);
+    color: white;
+    border-radius: 100%;
+    font-weight: bold;
+    margin-right: 11px;
+}
+.pointspara{
+    margin: 25px;
+    padding: 0 10px;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.appstore{
+    display: flex;
+    justify-content: center;
+}
+.appstore a{
+    padding: 15px;
+    background-color: black;
+    color: rgba(247, 185, 38 ,1);
+    margin: 20px;
+    width: 60px;
+    text-align: center;
+    border-radius: 30px;
+    transition: all .4s ease-in-out;
+}
+.appstore a:hover{
+    color: white;
+}
+.pointtext{
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
+    margin: 0;
+}
+.section5{
+    background: url(../images/testimonials-bg-section.jpg) center;
+}
+.section5 h3{
+    text-align: center;
+    background: url(../images/checkered\ border.png) center bottom no-repeat;
+    padding-bottom: 23px;
+    margin-top: 34px;
+    font-size: 30px;
+    padding-top: 100px;
+}
+.testimonials{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+.test{
+    background-color: white;
+    padding: 10px;
+    /* display: flex; */
+    /* height: 193px; */
+    width: 523px;
+    border-radius: 40px;
+    margin: 20px;
+    background-image: url(../images/quote-taxi.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.test img{
+    max-width: 25%;
+    float: left;
+    border-radius: 100%;
+}
+.testname h2{
+    font-size: 20px;
+    margin: 0;
+}
+.test span{
+    display: inline;
+    font-size: 14px;
+    color: #f7b926;
+    font-style: italic;
+}
+.testname{
+   align-self: flex-end;
+   padding-left: 160px;
+}
+.arrows{
+    height: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+.arrows a{
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 2em;
+    height: 40px;
+    margin-left: 5px;
+    opacity: 0.7;
+    position: relative;
+    text-align: center;
+    width: 40px;
+    background: #000;
+    color: #fff;
+}
+.section6 h1{
+    text-align: center;
+    background: url(../images/checkered\ border.png) center bottom no-repeat;
+    padding-bottom: 23px;
+    margin-top: 34px;
+    font-size: 30px;
+}
+.section6 h3{
+    text-align: center;
+    background: url(../images/checkered\ border.png) center bottom no-repeat;
+    padding-bottom: 23px;
+    margin-top: 34px;
+    font-size: 30px;
+    color: #a2a2a2;
+}
+.section6 p{
+    font-size: 16px;
+    text-align: center;
+    color: #a2a2a2;
+}
+.stepsrow{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.step{
+    width: 350px;
+    border-radius: 100%;
+    overflow: hidden;
+    transition: all 0.5s ease-in;
+    height: 350px;
+    position: relative;
+    max-height: 100%;
+}
+.step:hover .overlay{
+    transform: scale(1);
+    opacity: .9;
+    /* border: 30px solid lightyellow; */
+}
+.overlay{
+    background-color: rgba(247, 185, 38 ,1);
+    height: 350px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    transform: scale(0);
+    opacity: .1;
+    transition: all .4s ease-in-out;
+    width: 350px;
+    left: 0;
+    border: 30px solid rgb(252, 205, 97);
+}
+.overlay p{
+    color: black;
+    margin: auto;
+    position: relative;
+    top: 145px;
+    font-size: 20px;
+    
+}
+.step img{
+    border-radius: 100%;
+    max-width: 100%;
+    max-height: 100%
+}
+
+.forward{
+    font-size: 50px;
+}
+.section6 span{
+    text-align: center;
+    background: url(../images/checkered\ border.png) center bottom no-repeat;
+    padding-bottom: 23px;
+    margin-top: 34px;
+    font-size: 18px;
+    color: #a2a2a2;
+    align-self: center;
+    display: block;
+}
+.contactbtn{
+    text-align: center;
+    margin: 40px 0 70px 0;
+    
+}
+.contactbtn a:hover{
+    background-color: #e6a309;
+}
+.contactbtn a{
+    background-color: rgba(247, 185, 38 ,1);
+    padding: 10px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+}
+.section7 h2{
+    text-align: center;
+    background: url(../images/tyellow.png) no-repeat;
+    background-position: bottom;
+    padding-bottom: 30px;
+    color: white;
+}
+.section7{
+    padding: 100px 85px;
+    background: url(../images/city\ bg.jpg) center no-repeat;
+    background-size: cover;
+}
+.driverselector{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid greenyellow; */
+    justify-content: space-between;
+}
+.city{
+    align-self: flex-start;
+}
+.sort{
+    align-self: flex-end;
+}
+.driverselector a:hover{
+    background-color: rgba(247, 185, 38 ,1);
+    color: white;
+}
+.driverselector li{
+    list-style: none;
+    padding: 0 5px;
+    margin: 16px 0 16px 0;
+}
+.driverselector a{
+    text-decoration: none;
+    padding: 8px 10px;
+    color: rgba(247, 185, 38 ,1);
+    border: 2px solid rgba(247, 185, 38 ,1);
+    border-radius: 18px;
+    transition: all .4s ease-in;
+}
+.driverselector ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+.driverimages{
+    /* border: 2px solid silver; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.driverimg{
+    max-width: 272px;
+    max-height: 272px;
+    /* border: 2px solid yellow; */
+    position: relative;
+    overflow: hidden;
+}
+.driverprofiles{
+    max-width: 272px;
+    max-height: 272px;
+    position: absolute;
+    top: 0;
+    left: -273px;
+    background-color: black;
+    transition: all .3s ease-in;
+}
+.driverimg:hover .driverprofiles{
+    left: 0;
+    opacity: .8;
+}
+.driverprofiles h3{
+    color: rgba(247, 185, 38 ,1);
+    text-align: center;
+    max-width: 272px;
+}
+.driverprofiles p{
+    color: white;
+    padding: 20px;
+    max-width: 272px;
+}
+.driverprofiles a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    background-color: rgba(247, 185, 38 ,1);
+    border-radius: 20px;
+    margin-left: 20px;
+    transition: all .3s ease;
+}
+.driverprofiles a:hover{
+    color: white;
+    background-color: black;
+}
+.driverprofiles h4{
+    margin-top: 47px;
+    margin-bottom: 0;
+    background-color: rgba(247, 185, 38 ,1);
+    padding: 10px;
+    max-width: 272px;
+}
+.driverimg img{
+    max-width: 100%;
+}
+.hiredrivers{
+    display: flex;
+    flex-direction: column;
+}
+.section8 h2{
+    text-align: center;
+    background: url(../images/checkered\ border.png) center bottom no-repeat;
+    padding-bottom: 30px;
+    margin-top: 74px;
+}
+.taxiadvertisement{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.adimg{
+    border: 1px solid white;
+}
+.adimg img{
+    max-width: 100%;
+    margin-bottom: -5px;
+}
+.taxiad{
+    border: 1px solid rgba(247, 185, 38 ,1);
+    margin: 10px 0 30px 0;
+    width: 230px;
+    margin: 10px 10px 30px 10px;
+    border-radius: 50px;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+.taxiad:hover{
+    transform: scale(1.05);
+}
+.taxiad span{
+    font-weight: 800;
+}
+.taxilocation{
+    background: rgba(247, 185, 38 ,1);
+    text-align: center;
+    line-height: 25px;
+    color: white;
+}
+.taxiprice{
+    text-align: center;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    line-height: 70px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.mileage{
+    background: #f1f1f1;
+    text-align: center;
+    border: 1px solid white;
+    margin: 0;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 30px;
+}
+.inadbtn{
+    background: rgba(247, 185, 38 ,1);
+    border: 1px solid white;
+    padding: 30px;
+    text-align: center;
+}
+.inadbtn a{
+    padding: 7px 12px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: all 0.3s linear;
+}
+.inadbtn a:hover{
+    background: black;
+    color: #fff;
+}
+.section9{
+    background-color: rgba(247, 185, 38 ,1);
+}
+.section9 h2{
+    text-align: center;
+    background: url(../images/checkered\ border.png) center bottom no-repeat;
+    padding-bottom: 30px;
+    padding-top: 74px;
+    font-size: 25px;
+    font-weight: lighter;
+    color: #fff;
+}
+.advertisingrow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.advertdescription h1{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.advertdescription p{
+    color: white;
+}
+.advertdescription i{
+    color: black;
+}
+.advertdescription h3{
+    font-size: 30px;
+    font-weight: lighter;
+    color: #fff;
+}
+.advertdescription a{
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #f1f1f1;
+    background-color: black;
+    border-radius: 40px;
+    font-size: 17px;
+}
+.advertdescription{
+    padding: 10px 10px 10px 40px;
+    margin: 20px;
+    flex: 33%;
+}
+.adpricingbtn{
+    padding: 20px;
+}
+.adbanner{
+    margin: 20px;
+}
+.adbanner img{
+    max-width: 100%;
+}
+.appstoreicons{
+    display: flex;
+    flex-wrap: wrap;
+}
+.appstoreicons a{
+    padding: 12px 15px;
+    background-color:rgb(252, 205, 97);
+    color: white;
+    margin: 3px;
+    width: 60px;
+    text-align: center;
+    border-radius: 30px;
+    transition: all .3s linear;
+}
+.appstoreicons a:hover{
+    background-color: rgba(247, 185, 38 ,1);
+}
+footer{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+.footer1row h3{
+    background: url(../images/tyellow.png) no-repeat;
+    background-position: bottom left;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 25px;
+}
+.footer1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.footer1row{
+    flex: 24%;
+    padding: 10px 0 0 30px;
+    flex-shrink: 1;
+}
+.morestuff a{
+    text-decoration: none;
+    color: white;
+}
+.morestuff li{
+    list-style: none;
+}
+.morestuff li::before{
+    content: "\f00c";
+    color: #f7b926;
+    margin-right: 5px;
+    font: normal normal normal 11px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}
+.morestuff{
+    padding: 0;
+}
+.footercontact{
+    font-size: 13px;
+}
+.footer2row span{
+    color: white;
+    font-size: 16px;
+}
+.footer2row i{
+    color: white;
+    font-size: 15px;
+}
+.footer2row a{
+    padding: 7px 12px;
+    border: 2px solid white;
+    border-radius: 20px;
+    transition: all .3s linear;
+}
+.footer2row a:hover{
+    background-color: rgba(247, 185, 38 ,1);
+}
+.footernav a{
+    color: white;
+    text-decoration: none;
+    border: none !important;
+
+}
+.footer2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer2row{
+    padding: 50px 20px 30px;
+}
+footer p{
+    font-size: 13px;
+}
+footer li{
+    font-size: 13px;
+}
